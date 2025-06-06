@@ -12,6 +12,6 @@ Client-side asynchronous multipart/form-data upload of heterogeneous medical doc
 - **Pydantic**: Declarative type-enforced data integrity layer implementing JSON Schema v7 with dynamic model coercion and runtime validation.
 - **Dynamic Module Loading**: `insurance_claim` namespace injected into `sys.path` at runtime for seamless decoupling and hot-swappable model logic.
 - **Structured Output Enforcement**: Leveraging LLM output parsers with strict schema post-processing, eliminating brittle regex and heuristic extraction patterns.
-- **MySQL RDBMS**: ACID-compliant transactional persistence of multi-relational entity graphs capturing patient metadata, extracted fields, and inference provenance.
+- **MySQL RDBMS**: multi-relational capturing of patient metadata, extracted fields, and possible inference provenance.
 - **UUID-Driven Ephemeral Storage**: Stateless image lifecycle management leveraging GUID-based namespaces to mitigate data leakage and optimize ephemeral compute workloads.
 - **Django 4.2**: Synchronous and asynchronous routing orchestration layer handling multi-step request lifecycles with templated UI feedback loops and session state control.
