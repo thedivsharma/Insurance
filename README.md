@@ -10,7 +10,6 @@ Client-side asynchronous multipart/form-data upload of heterogeneous medical doc
 
 - **Ollama + Gemma-3**: Edge-native, containerized transformer inference runtime with possible,scalable and pluggable OpenAI API fallback for failover and throughput scaling.
 - **Pydantic**: Declarative type-enforced data integrity layer implementing JSON Schema v7 with dynamic model coercion and runtime validation.
-- **Hybrid Underwriting Model**: Expert system fused with probabilistic graphical models integrating heterogeneous feature vectors for nuanced insurance claim risk stratification.
 - **Dynamic Module Loading**: `insurance_claim` namespace injected into `sys.path` at runtime for seamless decoupling and hot-swappable model logic.
 - **Structured Output Enforcement**: Leveraging LLM output parsers with strict schema post-processing, eliminating brittle regex and heuristic extraction patterns.
 - **MySQL RDBMS**: ACID-compliant transactional persistence of multi-relational entity graphs capturing patient metadata, extracted fields, and inference provenance.
