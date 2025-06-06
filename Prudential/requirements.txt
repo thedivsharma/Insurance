@@ -1,0 +1,3 @@
+requests
+#with#context-manager
+#needs to be sub of .env
