@@ -1,0 +1,20 @@
+<!-- templates/extractor/output.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Claim Result</title>
+</head>
+<body>
+    <h2>🧾 Extracted Claim Details:</h2>
+
+    {% if data.error %}
+        <p>{{ data.error }}</p>
+    {% else %}
+        <ul>
+            {% for key, value in data.items %}
+                <li><strong>{{ key }}:</strong> {{ value }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+</body>
+</html>

@@ -1,0 +1,14 @@
+<!-- templates/extractor/buffer.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Processing...</title>
+</head>
+<body>
+    <h2>✅ Thank you for uploading!</h2>
+    <p>We’re currently processing your data. This may take a few moments...</p>
+    <form action="{% url 'show_output' %}">
+        <button type="submit">Show Results</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.sqlite3
+*.log
+media/
+*.env
+.venv/
+insurance/__pycache__/
+Prudential/insurance_claim/__pycache__/
+Prudential/insurance_claim/extracted_data/*.json
+Prudential/insurance_claim/images/*.jpeg
